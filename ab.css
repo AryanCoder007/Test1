@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+    font-size: 25px;
+}
+
+.box{
+
+    text-align: center;
+    width: 900px;
+    height: 500px;
+    border: 20px solid aquamarine;
+    margin-top: 10px;
+    margin-left: 270px ;
+    
+}
+
+h2{
+    font-size: 40px;
+}
+
+h4{
+    font-size: 20px;
+
+}
+
+input{
+    size: 20px;
+}
+
+body{
+    background: url("audio.gif");
+    background-size: cover;
+    color: white;
+}
+
+#back{
+    border-radius: 15px;
+    size: 5px;
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}

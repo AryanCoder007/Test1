@@ -1,0 +1,109 @@
+
+body{
+    background: url("study.gif");
+    background-size: cover;
+}
+.container{
+    height: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+header{
+    text-align: center;
+    font-size: 25px;
+}
+
+.box1{
+
+    text-align: center;
+    width: 330px;
+    height: 220px;
+    border: 20px solid red;
+    margin-top: 3px;
+    margin-left: 285px;
+}
+.box2{
+    text-align: center;
+    width: 330px;
+    height: 220px;
+    border: 20px solid green;
+    margin-top: 3px;
+    margin-left: 180px;
+}
+
+.box3{
+    text-align: center;
+    width: 330px;
+    height: 220px;
+    border: 20px solid blue;
+    margin-top: 6px;
+    margin-left: 577px;
+}
+#querybutton{
+    width: 25%;border-radius: 15px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#query{
+    border-radius: 5px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+#word{
+    border-radius: 5px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+
+}
+
+#wordbutton{
+    width: 25%;border-radius: 15px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#video{
+    border-radius: 5px;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+}
+
+#videobutton{
+    width: 25%;border-radius: 15px;
+    background-color: rebeccapurple;
+    cursor: pointer;
+}
+
+#logo
+{
+	width: 20px;margin-top: 0px;border-radius: 20px;
+}
+
+#logo2
+{
+	width: 30px;margin-top: 0px;border-radius: 20px;
+}
+
+#logo3
+{
+	width: 20px;margin-top: 0px;border-radius: 20px;
+}
+
+#back{
+    border-radius: 15px;
+    size: 5px;
+    background-color: chocolate;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
